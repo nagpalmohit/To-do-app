@@ -4,8 +4,10 @@ import {ACCENT_COLOR,WHITE_COLOR} from "../colors";
 import {responsiveFontSize, responsiveHeight} from "react-native-responsive-dimensions";
 
 export default class Button extends Component{
+
     render(){
         return(
+
             <TouchableOpacity style={[styles.buttonContainer,this.props.styles]} onPress={() => this.props.onPress()}>
                 <Text style={styles.textContainer}>{this.props.title}</Text>
             </TouchableOpacity>

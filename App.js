@@ -5,7 +5,6 @@ import TodoListScreen from "./screens/todo-list";
 import NewTodoScreen from "./screens/new-todo";
 import {connect, Provider} from "react-redux";
 
-
 import RootReducer from "./reducers/root-reducer";
 import {createStore} from "redux";
 import {responsiveHeight} from "react-native-responsive-dimensions";

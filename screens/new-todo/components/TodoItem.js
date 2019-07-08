@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
-import {View,Text,StyleSheet} from 'react-native';
-import CheckBox from "react-native-web/dist/exports/CheckBox";
+import {View,Text,StyleSheet,CheckBox} from 'react-native';
+
 import {responsiveFontSize, responsiveHeight, responsiveWidth} from "react-native-responsive-dimensions";
 import {WHITE_COLOR} from "../../../colors";
 
@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
        flexDirection:'row',
        alignItems:'center',
        borderRadius:responsiveWidth(2),
+
    },
     checkbox:{
         width:responsiveWidth(10),

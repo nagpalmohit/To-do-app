@@ -4,7 +4,6 @@ import Lottie from "lottie-react-native";
 
 import {
   TouchableWithoutFeedback,
-
 } from 'react-native';
 
 export default class CheckBox extends Component{
